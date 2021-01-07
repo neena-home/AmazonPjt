@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="com.amazon.test.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="/Users/sherin/dev/java-workspace/AmazonPjt(failed)">
+    <classes>
+      <class name="com.amazon.test.LandingPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testsignIn"/>
+        </methods>
+      </class> <!-- com.amazon.test.LandingPageTest -->
+    </classes>
+  </test> <!-- /Users/sherin/dev/java-workspace/AmazonPjt(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

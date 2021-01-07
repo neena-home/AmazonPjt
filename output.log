@@ -1,0 +1,14 @@
+11:19:32.877 [main] INFO  com.amazon.test.LandingPageTest - initialized  the landing page
+11:19:33.042 [main] DEBUG com.amazon.test.LandingPageTest - Mouse Over checking
+11:19:34.032 [main] INFO  com.amazon.test.LandingPageTest - return test data
+11:19:36.986 [main] INFO  com.amazon.test.LandingPageTest - initialized  the landing page
+11:19:43.506 [main] INFO  com.amazon.test.LandingPageTest - initialized  the landing page
+11:19:49.924 [main] INFO  com.amazon.test.LandingPageTest - initialized  the landing page
+11:19:55.947 [main] INFO  com.amazon.test.LandingPageTest - initialized  the landing page
+11:20:02.214 [main] INFO  com.amazon.test.LandingPageTest - initialized  the landing page
+11:20:08.003 [main] INFO  com.amazon.test.LandingPageTest - initialized  the landing page
+11:20:08.006 [main] DEBUG com.amazon.test.LandingPageTest - Validating Title
+11:20:10.775 [main] INFO  com.amazon.test.LandingPageTest - initialized  the landing page
+11:20:10.777 [main] DEBUG com.amazon.test.LandingPageTest - Validating the current url
+11:20:15.356 [main] INFO  com.amazon.test.LandingPageTest - initialized  the landing page
+11:20:15.359 [main] DEBUG com.amazon.test.LandingPageTest - Sign in click
