@@ -63,7 +63,7 @@ public class LandingPageTest extends BaseClasAmazon {
     public void testsignIn() {
         logger.debug("Sign in click");
         String[] actual = lp.signInClick().split("openid.");
-        Assert.assertEquals(actual[0], "https://www.amazon.com/ap/ignin?");
+        Assert.assertEquals(actual[0], "https://www.amazon.com/ap/signin?");
     }
 
     @DataProvider
