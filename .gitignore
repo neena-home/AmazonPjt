@@ -2,5 +2,5 @@ target
 Screenshot
 .idea
 *.log
-report
+
 *.iml
