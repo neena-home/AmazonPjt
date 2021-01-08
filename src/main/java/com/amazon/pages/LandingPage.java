@@ -29,6 +29,10 @@ public class LandingPage extends BaseClasAmazon {
         return;
     }
     
+    void test3() {
+        //test conflict
+        return;
+    }
     public LandingPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
