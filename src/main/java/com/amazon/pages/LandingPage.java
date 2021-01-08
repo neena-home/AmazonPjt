@@ -24,6 +24,10 @@ public class LandingPage extends BaseClasAmazon {
     @FindBy(css = "[class='nav-action-button']")
     public WebElement signin; //hi 
 
+    void test1() {
+        //test conflict
+        return;
+    }
 
     public LandingPage(WebDriver driver) {
         this.driver = driver;
