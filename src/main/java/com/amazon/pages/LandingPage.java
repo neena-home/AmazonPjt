@@ -14,7 +14,7 @@ public class LandingPage extends BaseClasAmazon {
     Actions mouse;
     @FindBy(xpath = "//a[@id='nav-link-accountList']")
     public WebElement mouseOver;
-By mouseover= By.xpath("//a[@id='nav-link-accountList']");
+    By mouseover = By.xpath("//a[@id='nav-link-accountList']");
     @FindBy(xpath = "//a[@id='nav-link-accountList']/div/span")
     WebElement mouseOverName;
     @FindBy(xpath = "//a[@id='nav-link-accountList']/span")
@@ -41,7 +41,7 @@ By mouseover= By.xpath("//a[@id='nav-link-accountList']");
     }
 
     public String mouseOverChk() {
-         mouse = new Actions(driver);
+        mouse = new Actions(driver);
         mouse.moveToElement(mouseOver).build().perform();
         return mouseOverName.getText() + mouseOverNameone.getText();
     }
@@ -52,11 +52,11 @@ By mouseover= By.xpath("//a[@id='nav-link-accountList']");
     }
 
     public String signInClick() {
-         mouse = new Actions(driver);
+        mouse = new Actions(driver);
         mouse.moveToElement(mouseOver).build().perform();
         signin.click();
-       return driver.getCurrentUrl();
-       // return new SignIn(driver);
+        return driver.getCurrentUrl();
+        // return new SignIn(driver);
 
 
     }
