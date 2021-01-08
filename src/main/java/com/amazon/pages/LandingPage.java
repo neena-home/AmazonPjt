@@ -28,7 +28,13 @@ public class LandingPage extends BaseClasAmazon {
         //test conflict
         return;
     }
-    
+
+    void test1() {
+        //test conflict
+        return;
+    }
+
+
     void test3() {
         //test conflict
         return;
