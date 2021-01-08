@@ -24,6 +24,11 @@ public class LandingPage extends BaseClasAmazon {
     @FindBy(css = "[class='nav-action-button']")
     public WebElement signin; //hi 
 
+    void test2() {
+        //test conflict
+        return;
+    }
+
     void test1() {
         //test conflict
         return;
