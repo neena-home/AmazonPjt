@@ -80,7 +80,6 @@ public class Utils extends BaseClasAmazon {
 
     public static ExtentReports getReport() {
         String path = System.getProperty("user.dir") + "/report/MyReport.html";
-        System.out.println(path);
         ExtentHtmlReporter reporter = new ExtentHtmlReporter(path);
         reporter.config().setReportName("Automation result for Amazon pjt");
         reporter.config().setDocumentTitle("Test results of Amazon pjt");

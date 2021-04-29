@@ -37,7 +37,6 @@ public class Listeners extends BaseClasAmazon implements ITestListener {
         }
         ut = new Utils(driver);
         try {
-            System.out.println(ut.screenshotBag(result.getMethod().getMethodName(),driver));
             test.addScreenCaptureFromPath(ut.screenshotBag(result.getMethod().getMethodName(), driver), result.getMethod().getMethodName());
             logger.info("When fail Captuering the screeshot");
         } catch (IOException e) {
